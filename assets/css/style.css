@@ -17,34 +17,35 @@
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%,-50%);
-  font-size: 4em;
+  transform: translate(-50%, -50%);
+  font-size: 6em;
   color: rgba(255, 255, 255);
+  background-size: cover;
 }
 
-/* div.background:nth-child(2) {
-    background-image: url('../img/napoli.jpg');
-} */
-
 /* ROMA */
-/* div.background:first-child {
-    background-image: url('../img/roma.jpg');
-} */
-#roma {
+section.cities:first-child {
   background-image: url('../img/roma.jpg');
+  background-size: cover;
 }
 
 /* /ROMA */
 /* NAPOLI */
-#napoli {
-background-image: url('../img/napoli.jpg');
+section.cities:nth-child(2) {
+  background-image: url('../img/napoli.jpg');
+  background-size: cover;
+
 }
 
 /* /NAPOLI */
 /* MILANO */
-#milano {
+section.cities:last-child {
   background-image: url('../img/milano.jpg');
+  background-size: cover;
+
 }
 
 /* /MILANO */
+
+
 /* /MAIN */
