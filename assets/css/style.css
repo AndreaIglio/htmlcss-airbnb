@@ -11,7 +11,9 @@
   background-size: cover;
   position: relative;
   border: 15px solid white;
+
 }
+
 
 .city {
   position: absolute;
@@ -19,8 +21,9 @@
   top: 50%;
   transform: translate(-50%, -50%);
   font-size: 6em;
-  color: rgba(255, 255, 255);
+  color: rgba(255, 255, 255, 0.8);
   background-size: cover;
+
 }
 
 /* ROMA */
