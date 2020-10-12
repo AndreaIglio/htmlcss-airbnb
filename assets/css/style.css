@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* MAIN */
+.background {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  border: 15px solid white;
+}
+
+.city {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 4em;
+  color: rgba(255, 255, 255);
+}
+
+/* div.background:nth-child(2) {
+    background-image: url('../img/napoli.jpg');
+} */
+
+/* ROMA */
+/* div.background:first-child {
+    background-image: url('../img/roma.jpg');
+} */
+#roma {
+  background-image: url('../img/roma.jpg');
+}
+
+/* /ROMA */
+/* NAPOLI */
+#napoli {
+background-image: url('../img/napoli.jpg');
+}
+
+/* /NAPOLI */
+/* MILANO */
+#milano {
+  background-image: url('../img/milano.jpg');
+}
+
+/* /MILANO */
+/* /MAIN */
